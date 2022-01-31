@@ -1,0 +1,28 @@
+
+/****************** Home *******************/
+
+.homeback{
+   
+    background-image: url('../images/home3.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 550px;
+    margin-bottom: 50px;
+}
+
+.homep1{
+    padding: 250px 0 0 100px;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    /* border: 1px solid green; */
+}
+
+.homep2{
+    padding: 0 0 0 100px;
+    font-size: 40px;
+    color: white;
+    /* border: 1px solid red; */
+    
+}

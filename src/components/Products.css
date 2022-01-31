@@ -1,0 +1,235 @@
+/****************** Products styles *******************/
+*{
+	box-sizing: border-box;
+}
+
+.marginp{
+    margin: 0 5vw;
+    /* border: 1px solid red; */
+}
+
+
+.latestp{
+    font-size: 35px;
+    text-align: center;
+
+}
+
+
+hr{
+    margin:15px auto 50px;
+    width: 95%;
+    display: block;
+    
+}
+
+.ldn{
+    width: 250px;
+    background-color: rgb(216, 216, 216);
+    margin: 0 30px 50px 30px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block
+}
+
+.btnn{
+    /* border: 1px solid green; */
+    width: auto;
+    width:fit-content;
+    display: block;
+    margin: 0px auto 50px;
+    
+}
+
+.btnlt{
+    
+}
+
+.displaydiv{
+    
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin: 0 30px;
+
+}
+
+
+.productbox{
+    
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 50px;
+   
+}
+
+.proimg{
+    
+    /* border: 1px solid red; */
+}
+
+.proimg img{
+    height: 300px;
+    width: 100%;
+}
+
+.proname{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.proprice{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.probtn{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/****************** Product styles  *******************/
+
+.firsthalf{
+    padding: 80px 0px 0px 70px ;
+    float: left;
+    /* border: 1px solid green; */
+    width: 49vw;
+}
+
+.proimg2{
+   
+    width: 400px;
+    /* border: 1px solid red; */
+}
+
+.proimg2 img{
+    height: 400px;
+    width: 100%;
+}
+
+.secondhalf{
+    padding: 80px 0px 0px 0px;
+    float: right;
+    /* border: 1px solid yellow; */
+    width: 49.5vw;
+}
+
+.mencloth{
+    font-size: 25px;
+    font-weight: 600;
+    color: grey;
+    margin: 0 20px 20px 0;
+}
+
+.proname2{
+    margin: 0 20px 20px 0;
+    font-size: 45px;
+}
+
+.rating{
+    margin: 0 20px 20px 0;
+    font-weight: 600;
+}
+
+.proprice2{
+    margin: 0 20px 20px 0;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.prodesc{
+    margin: 0 20px 20px 0;
+    color: rgb(58, 58, 58);
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.probtn2{
+    margin-bottom: 20px;
+   
+    display: inline-block;  
+    
+}
+
+.skelpro{
+    float: left;
+    margin-top: 80px;
+    width: 400px;
+    background-color: rgb(216, 216, 216);
+    margin: 80px 30px 50px 60px;
+    height: 400px;
+    border-radius: 5px;
+    
+}
+
+.skelsechalf{
+    float: right;
+    /* border: 1px solid pink; */
+    width: 50vw;
+    
+}
+
+.skelpro1{
+   
+    margin-top: 80px;
+    
+    background-color: rgb(216, 216, 216);
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+
+.skelpro11,.skelpro12,.skelpro13,.skelpro14,.skelpro15,.skelpro16{
+    background-color: rgb(216, 216, 216);
+    
+    border-radius: 5px;
+    margin-bottom: 15px;    
+}
+
+.skelpro11{
+    width: 600px;
+    height: 50px;
+}
+
+.skelpro12{
+    width: 150px;
+    height: 25px;
+}
+
+.skelpro13{
+    width: 600px;
+    height: 50px;
+}
+
+.skelpro14{
+    width: 600px;
+    height: 100px;
+}
+
+.skelpro15{
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.skelpro16{
+    width: 100px;
+    height: 40px;
+    
+    display: inline-block;
+}
+
+
+
+

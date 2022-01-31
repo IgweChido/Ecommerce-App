@@ -1,11 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import { Switch, Route } from "react-router-dom";
+import Products from "./components/Products";
+import Product from "./components/Product";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Navbar/>
+      <Switch>
+        <Route exact path = "/" component={Home} />
+        
+          <Route exact path= "/products" component={Products} />
+       
+        
+        <Route exact path= "/products/:id" component={Product} />
+      </Switch>
+
       
-    </div>
+    </>
   );
 }
 
